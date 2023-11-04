@@ -1,0 +1,116 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(226, 225, 225);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  background: none;
+}
+
+main {
+  max-width: 70%;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+select {
+  margin-bottom: 20px;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.card {
+  min-width: 200px;
+  max-width: screen;
+  margin: 20px 0;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff5f5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-head > p {
+  font-size: 14px;
+  font-family: fantasy;
+  color: rgb(59, 59, 59);
+}
+
+.name {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.motivation {
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgb(52, 150, 255);
+  max-width: 400px;
+}
+
+.share-wrap {
+  height: max-content;
+  width: max-content;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgb(52, 150, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.share {
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  background: rgb(222, 21, 21);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+  top: -7px;
+  right: -7px;
+}
+
+.share-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+.single-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background: #e6e6e6;
+}
